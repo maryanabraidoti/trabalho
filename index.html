@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semana Acadêmica IFSP</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    
+
+
+</head>
+
+<body> 
+
+<header>
+    <h2>IFSP</h2>
+    <p>IFSP Campus Birigui</p>
+
+    <nav> 
+        <a href="#inicio">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#programacao">Programação</a>
+        <a href="#palestrantes">Palestrantes</a>
+        <a href="#inscricao">Inscrição</a>
+    </nav>
+</header>
+
+<div class="banner" id="inicio">
+    <h1>Semana Acadêmica IFSP-Birigui 2026</h1>
+    <p>26 - 28 de Maio de 2026</p>
+    <p>Explore inovações em tecnologia</p>
+    <button onclick="document.getElementById('inscricao').scrollIntoView()">Inscreva-se agora</button>
+</div>
+
+<div class="container">
+
+    <div class="box" id="sobre">
+        <h3>Sobre o evento</h3>
+        <p>
+            Evento acadêmico com palestrantes, workshops e atividades voltadas à tecnologia.
+            Reúne alunos, professores e profissionais para troca de conhecimento.
+        </p>
+    </div>
+
+    <div class="box" id="programacao">
+        <h3>Programação</h3>
+        <ul>
+            <li>09:00 - Abertura</li>
+            <li>10:00 - Palestra: IA na Educação</li>
+            <li>14:00 - Workshop</li>
+            <li>16:00 - Encerramento</li>
+        </ul>
+    </div>
+
+    <div class="box" id="palestrantes">
+        <h3>Palestrantes</h3>
+        <div class="palestrantes">
+
+            <div class="card">
+              <img src="imagens/Ronaldo.png" alt="Ronaldo">
+
+                <p>João Braidoti</p>
+            </div>
+
+            <div class="card">
+                <img src="imagens/lorenq.jpg">
+                <p>Lorena Borela</p>
+            </div>
+
+            <div class="card">
+                <img src="imagens/beli_n.jpg">
+                <p>Isabeli Debortoli</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="box" id="inscricao">
+        <h3>Inscrição</h3>
+        <p>Inscreva-se gratuitamente:</p>
+
+        <form>
+            <input type="text" placeholder="Nome" required>
+            <input type="email" placeholder="Email" required>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+</div>
+
+<footer>
+    <footer>
+    <p>&copy; 2026 IFSP Campus Birigui</p>
+    <p>Contato | Redes Sociais</p>
+</footer>
+
+</body>
+</html>
